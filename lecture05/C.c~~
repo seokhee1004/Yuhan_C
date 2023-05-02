@@ -1,0 +1,22 @@
+#include <stdio.h>
+int print_title_screen()
+{
+	printf("############################\n");
+	printf("##                        ##\n");
+	printf("##       Dino Run         ##\n");
+	printf("##         V.0.1          ##\n");
+	printf("##                        ##\n");
+	printf("##     1.Start Game       ##\n");
+	printf("##     2.How to Play      ##\n");
+	printf("##     3. Exit            ##\n");
+	printf("############################\n");
+
+
+
+	return 0;
+}
+int main()
+{	
+	print_title_screen(); // print the title screen
+	return 0;
+}
