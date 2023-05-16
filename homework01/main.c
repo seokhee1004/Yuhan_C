@@ -17,7 +17,7 @@ int print_title_screen()
 			menu[i]='\n';
 		}
 
-
+//test sun
 		else if(x==0 || x==29 || y==0 || y==14)
 		{
 			menu[i]='#';
